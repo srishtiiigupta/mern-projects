@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://127.0.0.1:5500/web.html -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShowOnHepflix</title>
+</head>
+
+<body>
+    <h1>ShowOnHepflix</h1>
+    <h2>Logo</h2>
+    <a href="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bG9nbyUyMGZvciUyMG1vdmllJTIwY29tcGFueXxlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60"
+        target="_blank">Go to google</a><br>
+    <h3>About our website</h3>
+
+    ShowOnHepflix is a web-based streaming service that offers its users a variety of television shows, movies, and
+    documentaries from a number of different categories.
+    Hepflix 2022 movies Website is a torrent platform that provides piracy movies. With Hubflix, you may watch and also
+    download all the new movies.
+
+    <h2>LIST OF CITIES IN INDIA </h2>
+    1 Delhi · Delhi ; 2 Bengaluru · Karnataka ; 3 Visakhapatnam · Andhra Pradesh ; 4 Hyderabad · Telangana
+
+    <h2>ABOUT US</h2>
+    <!-- Code injected by live-server -->
+    <script>
+        // <![CDATA[  <-- For SVG support
+        if ('WebSocket' in window) {
+            (function () {
+                function refreshCSS() {
+                    var sheets = [].slice.call(document.getElementsByTagName("link"));
+                    var head = document.getElementsByTagName("head")[0];
+                    for (var i = 0; i < sheets.length; ++i) {
+                        var elem = sheets[i];
+                        var parent = elem.parentElement || head;
+                        parent.removeChild(elem);
+                        var rel = elem.rel;
+                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                        }
+                        parent.appendChild(elem);
+                    }
+                }
+                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                var address = protocol + window.location.host + window.location.pathname + '/ws';
+                var socket = new WebSocket(address);
+                socket.onmessage = function (msg) {
+                    if (msg.data == 'reload') window.location.reload();
+                    else if (msg.data == 'refreshcss') refreshCSS();
+                };
+                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                    console.log('Live reload enabled.');
+                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                }
+            })();
+        }
+        else {
+            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+        }
+	// ]]>
+    </script>
